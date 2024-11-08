@@ -6,3 +6,64 @@ body, h1, h2, h3, p, ul, li, a {
     text-decoration: none;
     font-family: 'Arial', sans-serif;
 }
+
+body {
+    background-color: #f0f8ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #f0f8ff;
+}
+
+.hero {
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: #333;
+}
+.hero .btn-cta {
+    display: inline-block;
+    background: #83c5be;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.hero .btn-cta:hover {
+    background: #028090;
+}
